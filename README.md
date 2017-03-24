@@ -90,7 +90,7 @@ Learn about the version control system [here](https://git-scm.com/doc)
 TKO follows [OCA's](https://odoo-community.org/) technical guidelines [here](https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md)
 
 
-Asking For
+Now Jump!
 ----------------
 
 Development of Tests:	
