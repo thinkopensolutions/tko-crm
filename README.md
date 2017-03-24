@@ -1,7 +1,12 @@
 ![TKO](https://tkobr.tkobr.com/website/image/ir.attachment/50170_af65c50/datas)
 
-CRM
+CRM Addons for Odoo
 ===
+This project aims to extend Odoo on CRM features, such as:
+
+ * ...
+ * ...
+ * ...
 
 Available addons
 ----------------
