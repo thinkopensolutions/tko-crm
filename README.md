@@ -2,6 +2,7 @@
 
 CRM Addons for Odoo
 ===
+
 This project aims to extend Odoo on CRM features, such as:
 
  * ...
@@ -70,6 +71,24 @@ Acquire funding support
 When the need for extensive development is recognized, beyond the means of one company or customer, the TKO can reach out to the community and customers to raise funds and validate requirements.
 
 This allows creation, modification and extensions of high quality Apps with wide appeal where financial risk is spread across many potential beneficiaries.
+
+How to Contribute
+===
+
+Go get your tools before jumping in
+----------------
+
+* Read the technical documentation
+Your first step in the technical part starts [here](https://www.odoo.com/documentation/8.0/reference.html)
+
+
+* Get familiar with Git
+Learn about the version control system [here](https://git-scm.com/doc)
+
+
+* Discover our conventions
+Read our technical guidelines [here](https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md)
+
 
 Keep Updated
 ===
