@@ -48,7 +48,7 @@ Why should you contribute?
 
 Enhance your quality
 ----------------
-All OCA work is subject to rigorous code review by experienced developers and domain specialists. This helps you and your team produce clean and maintainable code.
+All TKO work is subject to rigorous code review by experienced developers and domain specialists. This helps you and your team produce clean and maintainable code.
 
 Qualified users will help you improve and ensure a better functional experience.
 
@@ -87,7 +87,7 @@ Learn about the version control system [here](https://git-scm.com/doc)
 
 
 * Discover our conventions
-Read our technical guidelines [here](https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md)
+TKO follows [OCA's](https://odoo-community.org/) technical guidelines [here](https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md)
 
 
 Keep Updated
