@@ -75,22 +75,22 @@ This allows creation, modification and extensions of high quality Apps with wide
 How to Contribute
 ===
 
-Go get your tools before jumping in
+**Go get your tools before jumping in**
 ----------------
 
-* Read the technical documentation
+**Read the technical documentation**
 Your first step in the technical part starts [here](https://www.odoo.com/documentation/8.0/reference.html)
 
 
-* Get familiar with Git
+**Get familiar with Git**
 Learn about the version control system [here](https://git-scm.com/doc)
 
 
-* Discover our conventions
+**Discover our conventions**
 TKO follows [OCA's](https://odoo-community.org/) technical guidelines [here](https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md)
 
 
-Asking for
+Asking For
 ----------------
 
 Development of Tests:	
