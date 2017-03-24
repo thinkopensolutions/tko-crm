@@ -35,21 +35,7 @@ addon | version | summary
 [tko_sale_sale_order_installments_interests](tko_sale_sale_order_installments_interests/)	|	10.0.0.0.0	|	Descrição do Módulo
 [tko_sale_sale_order_line_category](tko_sale_sale_order_line_category/)	|	10.0.0.0.0	|	Descrição do Módulo
 [tko_website_crm_claim](tko_website_crm_claim/)	|	10.0.0.0.0	|	Descrição do Módulo
-tko_partner_person_formation_tab
-tko_partner_person_job_goals_tab
-tko_partner_person_language_skills_tab
-tko_partner_relatives
-tko_product_associated_products
-tko_product_sale_price_currency
-tko_sale_crm
-tko_sale_domain_only_companies_client
-tko_sale_order_line_product_internal_category
-tko_sale_sale_order_associated_products
-tko_sale_sale_order_fix_discount_type
-tko_sale_sale_order_installments
-tko_sale_sale_order_installments_interests
-tko_sale_sale_order_line_category
-tko_website_crm_claim
+
 
 
 [![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg)](https://gratipay.com/thinkopensolutions/)
