@@ -58,7 +58,7 @@ Reduce your costs
 ----------------
 Your developments may no longer be maintained and paid by yourself only!
 
-The maintenance costs of your Apps will be supported by the entire Odoo community. This includes bugfixes, migrations and functional improvements.
+The maintenance costs of the Apps will be supported by TKO. This includes bugfixes, migrations and functional improvements.
 
 Come by legitimacy and sponsorship
 ----------------
@@ -68,7 +68,7 @@ This will lead to a convergence of work effort rather than divergence, allowing 
 
 Acquire funding support
 ----------------
-When the need for extensive development is recognized, beyond the means of one company or customer, the TKO can reach out to the community and customers to raise funds and validate requirements.
+When the need for extensive development is recognized, beyond the means of one company or customer, TKO can reach out to the community and customers to raise funds and validate requirements.
 
 This allows creation, modification and extensions of high quality Apps with wide appeal where financial risk is spread across many potential beneficiaries.
 
@@ -93,13 +93,13 @@ TKO follows [OCA's](https://odoo-community.org/) technical guidelines [here](htt
 Now Jump!
 ----------------
 
-Development of Tests:	
-* Travis
-* Coverage
-
 Creation of Pull Requests **per module**
 
 Review others Pull Requests
+
+Development of Tests:	
+* Travis
+* Coverage
 
 Keep Updated
 ===
@@ -107,7 +107,6 @@ Keep Updated
 With Backstroke, always keep your repository's forks up to date.
 
 http://backstroke.us/
-
 
 
 [![Support CRM Addons](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg)](https://gratipay.com/thinkopensolutions/)
