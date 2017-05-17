@@ -1,4 +1,4 @@
-![TKO](https://tkobr.tkobr.com/website/image/ir.attachment/50170_af65c50/datas)
+![TKO](https://tkobr.com/website/image/ir.attachment/50170_af65c50/datas)
 
 CRM Addons for Odoo
 ===
