@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_form_prospect_linkedin">
+            <field name="name">CRM Linkedin extension</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_case_form_view_leads"/>
+            <field name="arch" type="xml">
+                <field name="partner_id" position="after">
+                    <field name="linkedin" widget="url"/>
+                </field>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="view_form_res_partner_linked_extension">
+            <field name="name">Partner Form Linkedin extension</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <field name="email" position="after">
+                    <field name="linkedin" widget="url"/>
+                </field>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="view_form_opportunity_linkedin">
+            <field name="name">CRM Opportunity Linkedin</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
+            <field name="priority">100</field>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_name']" position="after">
+                    <field name="linkedin" widget="url"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
