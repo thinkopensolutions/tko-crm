@@ -21,7 +21,7 @@
 ##############################################################################
 
 from odoo import models, fields, api
-
+ 
 
 class CrmLead(models.Model):
     _inherit = 'crm.lead'
@@ -29,7 +29,8 @@ class CrmLead(models.Model):
     is_company = fields.Boolean(related='partner_id.is_company')
     email = fields.Char(string='Email', related='partner_id.email')
     phone = fields.Char(string='Phone', related='partner_id.phone')
-    mobile = fields.Char(string='Mobile', related='partner_id.mobile')
+    mobile = fields.Char('Mobile')
+    partner_mobile = fields.Char(string='Mobile', related='partner_id.mobile')
     poc_id = fields.Many2one('res.partner', string='Point of Contact', related='partner_id.poc_id')
     poc_email = fields.Char(string='Point of Contact Email', related='poc_id.email')
     poc_mobile = fields.Char(string='Point of Contact Mobile', related='poc_id.mobile')
