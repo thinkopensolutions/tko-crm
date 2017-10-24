@@ -34,3 +34,24 @@ class CrmLead(models.Model):
     poc_id = fields.Many2one('res.partner', string='Point of Contact', related='partner_id.poc_id')
     poc_email = fields.Char(string='Point of Contact Email', related='poc_id.email')
     poc_mobile = fields.Char(string='Point of Contact Mobile', related='poc_id.mobile')
+
+
+    @api.model
+    def create(self, vals):
+        res = super(CrmLead, self).create(vals)
+        if res.partner_id and vals.get('poc_id'):
+            child_ids = [x.id for x in res.partner_id.child_ids]
+            if vals.get('poc_id') not in  child_ids:
+                res.poc_id.write({'parent_id':res.partner_id.id})
+        return res
+
+    @api.multi
+    def write(self, vals):
+        res = super(CrmLead, self).write(vals)
+        for oppo in self:
+            if not vals.get('partner_id') or vals.get('poc_id'):
+                child_ids = [x.id for x in self.partner_id.child_ids]
+                if  vals.get('poc_id') not in child_ids:
+                     # self.env['res.partner'].browse(vals.get('poc_id')).write({'parent_id':self.partner_id.id})
+                     self.poc_id.write({'parent_id':self.partner_id.id})
+        return res
