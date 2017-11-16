@@ -8,7 +8,7 @@
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='partner_id']" position="after">
                     <field name="is_company" invisible="1"/>
-                    <field name="mobile" readonly="True" attrs="{'invisible' : [('is_company','=', True)]}"/>
+                    <field name="partner_mobile" readonly="True" attrs="{'invisible' : [('is_company','=', True)]}"/>
                 </xpath>
                 <xpath expr="//field[@name='phone']" position="after">
                     <field name="poc_id" attrs="{'invisible' : [('is_company','=', False)]}" domain="[('is_company','=',False),('parent_id','=',partner_id)]"/>
