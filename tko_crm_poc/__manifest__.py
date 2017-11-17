@@ -15,6 +15,7 @@
     'auto_install': False,
     'depends': [
                 'crm',
+                'sales_team',
                 'tko_base_partner_poc',
     ],
     'external_dependencies': {
