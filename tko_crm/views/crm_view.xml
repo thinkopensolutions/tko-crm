@@ -1,0 +1,12 @@
+<odoo>
+    <record id="crm_case_form_view_oppor" model="ir.ui.view" >
+            <field name="name">CRM - Leads Form</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
+            <field name="arch" type="xml">
+                <field name="team_id" position="after">
+                    <field name="company_id" groups="base.group_multi_company"/>
+                </field>
+            </field>
+        </record>
+</odoo>
